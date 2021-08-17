@@ -3,7 +3,7 @@
 var _asyncToGenerator = require('@babel/runtime/helpers/asyncToGenerator');
 var _regeneratorRuntime = require('@babel/runtime/regenerator');
 var Vinyl = require('vinyl');
-var mt2amd = require('gulp-mt2amd');
+var mt2amd = require('@mlz/gulp-mt2amd');
 var utils = require('@rollup/pluginutils');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }

@@ -1,5 +1,5 @@
 import Vinyl from 'vinyl'
-import mt2amd from 'gulp-mt2amd'
+import mt2amd from '@mlz/gulp-mt2amd'
 import utils from '@rollup/pluginutils'
 
 export default function rollupMt2amd(options) {

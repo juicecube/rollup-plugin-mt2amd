@@ -2,7 +2,7 @@ const rollup = require('rollup')
 const { babel } = require('@rollup/plugin-babel')
 const pkg = require('../package.json')
 
-module.exports = async function build() {
+async function build() {
   try {
     const bundle = await rollup.rollup({
       input: 'src/index.js',
@@ -22,3 +22,5 @@ module.exports = async function build() {
     console.error(e)
   }
 }
+
+build()

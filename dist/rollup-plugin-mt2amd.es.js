@@ -1,7 +1,7 @@
 import _asyncToGenerator from '@babel/runtime/helpers/asyncToGenerator';
 import _regeneratorRuntime from '@babel/runtime/regenerator';
 import Vinyl from 'vinyl';
-import mt2amd from 'gulp-mt2amd';
+import mt2amd from '@mlz/gulp-mt2amd';
 import utils from '@rollup/pluginutils';
 
 function rollupMt2amd(options) {
@@ -39,4 +39,4 @@ function rollupMt2amd(options) {
 
 }
 
-export default rollupMt2amd;
+export { rollupMt2amd as default };
