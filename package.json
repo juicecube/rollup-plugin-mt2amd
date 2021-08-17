@@ -1,0 +1,39 @@
+{
+  "name": "@mlz/rollup-plugin-mt2amd",
+  "version": "3.0.0",
+  "description": "mt2amd plugin for rollup",
+  "main": "dist/rollup-plugin-mt2amd.cjs.js",
+  "module": "dist/rollup-plugin-mt2amd.es.js",
+  "scripts": {
+    "build": "node ./build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicecube/rollup-plugin-mt2amd.git"
+  },
+  "author": "Gary Wang",
+  "contributors": [
+    {
+      "name": "Eric Tian",
+      "email": "tianxing0923@qq.com",
+      "url": "https://github.com/tianxing0923"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juicecube/rollup-plugin-mt2amd/issues"
+  },
+  "homepage": "https://github.com/juicecube/rollup-plugin-mt2amd",
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "vinyl": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/pluginutils": "^4.1.0",
+    "rollup": "^2.53.1"
+  }
+}
