@@ -25,16 +25,16 @@
   },
   "homepage": "https://github.com/juicecube/rollup-plugin-mt2amd",
   "dependencies": {
-    "@babel/runtime": "^7.14.6",
-    "vinyl": "^2.2.1"
-  },
-  "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/preset-env": "^7.14.7",
+    "@babel/runtime": "^7.15.3",
     "@mlz/gulp-mt2amd": "^2.0.0",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/pluginutils": "^4.1.0",
-    "rollup": "^2.53.1"
+    "vinyl": "^2.2.1"
+  },
+  "peerDependencies": {
+    "rollup": "^2.0.0"
   }
 }
